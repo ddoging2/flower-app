@@ -33,5 +33,4 @@ export async function POST(req: Request) {
   const result = completion.choices[0].message.content;
 
   return Response.json({ result });
-
 }
